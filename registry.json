@@ -1079,8 +1079,8 @@
     {
       "id": "toolbox-transform-editor",
       "name": "Transform Editor",
-      "version": "1.0.4",
-      "description": "Create named derived time series using Lua functions. Equivalent to the Custom Series editor in PJ3.",
+      "version": "1.2.0",
+      "description": "Create derived time series and 2D/3D objects from series and object topics with Luau or Python functions: drop the inputs, write the function, preview the result and create it. The successor of the Custom Series editor of PJ3.",
       "author": "PlotJuggler Team",
       "publisher": "PlotJuggler",
       "website": "https://github.com/PlotJuggler/pj-official-plugins",
@@ -1089,34 +1089,38 @@
       "icon_url": "",
       "category": "toolbox",
       "tags": [
-        "lua",
+        "luau",
+        "python",
         "transform",
         "derived",
         "custom",
         "toolbox",
         "hidden"
       ],
-      "min_plotjuggler_version": "3.999.3",
+      "min_plotjuggler_version": "4.0.0",
+      "min_sdk_required": "0.28.0",
+      "suggested_sdk_version": "0.38.0",
+      "floor_test": "TransformEditorFloorTest.OnDemandSubmitReportsUnsupportedOnFloorHost",
       "platforms": {
         "linux-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_transform_editor/v1.0.4/toolbox-transform-editor-1.0.4-linux-aarch64.zip",
-          "checksum": "sha256:7f1bb9c240f3df677b41553df444b13552e95be3c730746c9aae076a0998088b"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_transform_editor/v1.2.0/toolbox-transform-editor-1.2.0-linux-aarch64.zip",
+          "checksum": "sha256:8ac92f94c180547320b355d383c13cced24275939d46476043b5db9804e6702c"
         },
         "linux-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_transform_editor/v1.0.4/toolbox-transform-editor-1.0.4-linux-x86_64.zip",
-          "checksum": "sha256:c8591333fc15e4a7e339a812765d1283df3291483938cc5314beb93ddd6c1f1f"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_transform_editor/v1.2.0/toolbox-transform-editor-1.2.0-linux-x86_64.zip",
+          "checksum": "sha256:ea39d0b6b82b806d624a4ac27b2a62b3cf64be8d610321fa5b579003d783259f"
         },
         "macos-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_transform_editor/v1.0.4/toolbox-transform-editor-1.0.4-macos-arm64.zip",
-          "checksum": "sha256:4971265b3c47628d4870962d5377dca40c8ee791c9b5b0f39c4e4d9a3e070707"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_transform_editor/v1.2.0/toolbox-transform-editor-1.2.0-macos-arm64.zip",
+          "checksum": "sha256:76e8d269ef96510b7f08b42687f73d467b1f77d5a93c3ee9be1f483d940c2855"
         },
         "windows-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_transform_editor/v1.0.4/toolbox-transform-editor-1.0.4-windows-arm64.zip",
-          "checksum": "sha256:f3cfaa8b1272ba6fc234c1145c9188cc64a0c6f30798c51c529d40402aa01133"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_transform_editor/v1.2.0/toolbox-transform-editor-1.2.0-windows-arm64.zip",
+          "checksum": "sha256:531b8be4f669caaa481e92b9603eda99ec318a0b9d9778938e5885c0d8a46cb9"
         },
         "windows-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_transform_editor/v1.0.4/toolbox-transform-editor-1.0.4-windows-x64.zip",
-          "checksum": "sha256:9b9dd30139c80d039d933e96d46fd6cbd6fe039e4015c72a610661ae6e5306a0"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_transform_editor/v1.2.0/toolbox-transform-editor-1.2.0-windows-x64.zip",
+          "checksum": "sha256:581e079ac400d1afb099291301e1db5a030de8a29e66fe54e036609543a806cd"
         }
       }
     },
